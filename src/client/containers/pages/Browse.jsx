@@ -14,7 +14,7 @@ export default class Browse extends React.Component {
 
       setTimeout(() => {
         state.browse.data = 'after 2 sec (2000ms)'
-        resolve()
+        // resolve()
       }, 2000)
     })
   }
