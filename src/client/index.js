@@ -19,9 +19,9 @@ autorun(state)
 
 // Wrap RouterContext with Provider for state transfer
 function createElement(props) {
-    return <Provider state={state} >
-      <RouterContext {...props} />
-    </Provider>
+  return <Provider state={state} >
+    <RouterContext {...props} />
+  </Provider>
 }
 
 var ignoreFirstLoad = true
