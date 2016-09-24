@@ -25,6 +25,7 @@ export default function createRoutes() {
       <Route path="/"      getComponent={requireAsync('Home')}/>
       <Route path="browse" getComponent={requireAsync('Browse')}/>
       <Route path="about"  getComponent={requireAsync('About')}/>
+      <Route path="betot"  getComponent={requireAsync('Betot')}/>
       <Route path="*"      getComponent={requireAsync('NotFound')}/>
     </Route>
   )

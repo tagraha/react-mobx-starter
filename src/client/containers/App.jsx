@@ -5,6 +5,7 @@ var menuData = [
   {title: "Home", path:""},
   {title: "Browse", path:"Browse?wait=1000"},
   {title: "About", path:"about"},
+  {title: "Betot", path: "betot"},
   {title: "Not Found", path:"this_url_doesnt_exist"},
 ]
 
