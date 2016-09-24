@@ -46,8 +46,12 @@ export default class Browse extends React.Component {
 ````
 
 ## How to run
-````
+````(javascript)
     node index.js
+    // or
+    npm start /* (dev environtment) */
+    // or
+    npm run prod /* (production environtment) */
 ````
 
 If you want to run production build on your development machine, use cross-env ( `npm install cross-env -g` )
@@ -127,4 +131,4 @@ Check out nightwolfz's implementation !
 
 
 ## Author
-Sam Megidov
+Tirta Nugraha
